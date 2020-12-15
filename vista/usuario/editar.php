@@ -34,6 +34,9 @@
     <div class="row">
         <div class="col s4">
             <input  class="btn waves-effect waves-light" type="submit" value="Actualizar">
+        </div>        
+        <div class="col s4 text-right">
+            <a class="waves-effect waves-light btn text-right" href="<?= getUrlControllerMethod("Usuario","listar") ?>"><i class="material-icons left">navigate_before</i>Regresar</a>
         </div>
     </div>
 </form>

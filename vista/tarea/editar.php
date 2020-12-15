@@ -38,6 +38,9 @@
     <div class="row">
         <div class="col s4">
             <input class="btn waves-effect waves-light" type="submit" value="Registrar">
+        </div>        
+        <div class="col s4 mt-2 text-right">
+            <a class="waves-effect waves-light btn text-right" href="<?= getUrlControllerMethod("Tarea","consultar") ?>"><i class="material-icons left">navigate_before</i>Regresar</a>
         </div>
     </div>
 </form>

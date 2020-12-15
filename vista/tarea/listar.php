@@ -1,6 +1,9 @@
+<div class="ml-2">
+<h4>Lista de Tareas</h4>
+</div>
 <div class="row">
     <div class="col s8">
-        <table>
+        <table class="table table-bordered table-striped centered table-dark">
             <thead>
                 <tr>
                     <th>Fecha vencimiento</th>
@@ -35,4 +38,4 @@
         </table>
     </div>
 </div>
-<a class="waves-effect waves-light btn" href="<?= getUrlControllerMethod("Tarea","registro") ?>"><i class="material-icons left">cloud</i>Nuevo</a>
+<a class="waves-effect waves-light btn" href="<?= getUrlControllerMethod("Tarea","registro") ?>"><i class="material-icons left">add_circle</i>Nuevo</a>

@@ -2,6 +2,9 @@
     <div class="col s12">
         <h5>Registrar Usuario</h5>
     </div>
+    <div class="col s4 mt-2 text-right">
+    <a class="waves-effect waves-light btn text-right" href="<?= getUrlControllerMethod("Usuario","listar") ?>"><i class="material-icons left">navigate_before</i>Regresar</a>
+    </div>
 </div>
 <form action="<?= getUrlControllerMethod("Usuario","registrar") ?>" method="POST" class="col s12">
     <div class="row">

@@ -23,7 +23,11 @@
         <div class="nav-wrapper blue lighten-1">
             <a href="#" class="brand-logo" style="padding-left: 20px;">PLANNING YN</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><?= unserialize($_SESSION["user"])->getNombre() ?></li>
+                <li>
+                    <div class="chip">
+                        <?= unserialize($_SESSION["user"])->getNombre() ?>
+                    </div>
+                </li>
                 <li><a href="<?= getUrlControllerMethod("Usuario","listar") ?>">Usuarios</a></li>
                 <li><a href="<?= getUrlControllerMethod("Tarea","consultar") ?>">Tareas</a></li>
                 <li><a href="<?= getUrlControllerMethod("Login","cerrarSesion") ?>">Cerrar Sesión</a></li>
